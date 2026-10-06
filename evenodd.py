@@ -1,3 +1,4 @@
+import sys 
 def evenorodd(num):
     if num % 2 == 0:
         print("the given number is even")
@@ -7,4 +8,5 @@ def evenorodd(num):
         return 1
     
 if __name__ == "__main__": 
-    print(evenorodd(5))
+    num = int(sys.argv[1])
+    print(evenorodd(num))

@@ -1,11 +1,10 @@
 def evenorodd(num):
-    remainder = num%2  
-    if (remainder == 0):
+    if num % 2 == 0:
         print("the given number is even")
-        return remainder 
-    else :
+        return "even"
+    else:
         print("the given number is odd")
-        return remainder
+        return "odd"
     
 if __name__ == "__main__": 
     print(evenorodd(5))
